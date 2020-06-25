@@ -21,8 +21,8 @@ ALLOWED_HOSTS = ['*']
 # Email verification
 EMAIL_USE_TLS = True            # Email Tools true
 EMAIL_HOST = 'smtp.gmail.com'   # SMTP protocol for mail transfer
-EMAIL_HOST_USER = 'itstushar8871@gmail.com'   # email to be send from user
-EMAIL_HOST_PASSWORD = 'tushar8871'                   # password
+EMAIL_HOST_USER = 'agarwalshubham690@gmail.com'   # email to be send from user
+EMAIL_HOST_PASSWORD = 'Shubh@1996'                   # password
 EMAIL_PORT = 587                                       # default email port
 DEFAULT_FROM_EMAIL = 'TestSite Team <noreply@example.com>'  # subject for email
 
@@ -102,11 +102,11 @@ CHANNEL_LAYERS = {
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.postgresql_psycopg2',
-        'NAME': 'chatApp',
-        'USER': 'postgres',
-        'PASSWORD': '*admin123',
-        'HOST': 'mychatapp.cm0qqx04d55a.ap-south-1.rds.amazonaws.com',
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'postgres',
+        'USER': 'Shubham@chat-db',
+        'PASSWORD': 'Shubh@22091996',
+        'HOST': 'chat-db.postgres.database.azure.com',
         'PORT': '5432',
     }
 }
